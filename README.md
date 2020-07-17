@@ -6,9 +6,7 @@
 
 Diagram of the multi-scale model of electrical stimulation of retinal tissue, including (Top) a discretized Admittance Method model consisting of a layered structure describing the retina and the electrode array placed 0.05 mm away from the retina surface, and (bottom) a rendering of the NEURON model of an ON ganglion cell network, which was tiled to
 populate the entire ganglion cell, inner plexiform, and bipolar cell layers beneath the electrode array. This resulted in 888 cellular networks, each simulated independently.
-element {
-  font-size: 75;
-}
+
 
 
 **AM-NEURON SIMULATIONS**
@@ -17,6 +15,8 @@ element {
 
 Code for the Admittance Method (AM) can be found in folder named "AM".
 We provided the resulting output voltages of the AM code after interpolation in the folder named ‘voltage’ and you can simply skip the AM simulations. The resulting voltages of the AM code correspond to the figure 4 in the paper. Details related to the instructions on how to run the AM simulation are also provided in the folder “Instructions on AM”.
+
+
 
 *NEURON*
 
