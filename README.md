@@ -5,7 +5,8 @@
 ![AM-NEURON](https://github.com/JavadPaknahad/RetinaModeling/blob/master/AM-NEURON.gif)
 
 Diagram of the multi-scale model of electrical stimulation of retinal tissue, including (Top) a discretized Admittance Method model consisting of a layered structure describing the retina and the electrode array placed 0.05 mm away from the retina surface, and (bottom) a rendering of the NEURON model of an ON ganglion cell network, which was tiled to
-populate the entire ganglion cell, inner plexiform, and bipolar cell layers beneath the electrode array. This resulted in 888 cellular networks, each simulated independently.
+populate the entire ganglion cell, inner plexiform, and bipolar cell layers beneath the electrode array. This resulted in 888 cellular networks, each simulated independently.{  font-size: 50;
+}
 
 
 **AM-NEURON SIMULATIONS**
