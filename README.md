@@ -2,7 +2,7 @@ The code and methodology presented here describe a computational model aimed at 
 
 Abstract: A computational model of electrical stimulation of the retina is proposed for investigating current waveforms used in prosthetic devices for restoring partial vision lost to retinal degenerative diseases. The model framework combines a connectome-based neural network model characterized by accurate morphological and synaptic properties with an admittance method model of bulk tissue and prosthetic electronics. In this model, the retina was computationally “degenerated,” considering cellular death and anatomical changes that occur early in disease, as well as altered neural behavior that develops throughout the neurodegeneration and is likely interfering with current attempts at restoring vision. A resulting analysis of stimulation range and threshold of ON ganglion cells with the retina that are either healthy or in beginning stages of degeneration is presented for currently used stimulation waveforms, and an asymmetric biphasic current stimulation for subduing spontaneous firing to allow increased control over ganglion cell firing patterns in degenerated retina is proposed. Results show that stimulation thresholds of retinal ganglion cells do not notably vary after beginning stages of retina degeneration. In addition, simulation of proposed asymmetric waveforms showed the ability to enhance the control of ganglion cell firing via electrical stimulation.
 
-![Roots Example Arbor](https://github.com/JavadPaknahad/RetinaModeling/AM-NEURON.gif)
+https://github.com/JavadPaknahad/RetinaModeling/AM-NEURON.gif
 
 AM-NEURON SIMULATIONS
 
