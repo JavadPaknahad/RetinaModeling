@@ -24,7 +24,8 @@ We provided the resulting output voltages of the AM code after interpolation in 
 3. The “morphology” folder includes all the SWC files of the retinal cells modeled in this paper.
 
 4. In addition to the morphology, the topology of the network was extracted. ‘606celltypes.txt’ and ‘606projections.txt’ files are provided in the directory. These are ASCII text files. The ‘606celltypes.txt’ lists the ID that each cell is given (also used as the filename for the SWC files), and each cell’s cell type. The ‘606projections.txt’ describes every connection within the network (in this case for cell 606 (ganglion cell)), with each line defining a single connection. The fields in each line are defined as:
-(source cell ID) (target cell ID) (x-coordinate (source)) (y-coordinate (source)) (z-coordinate (source)) (x-coordinate (target)) (y-coordinate (target)) (z-coordinate (target)) (projection type) (synaptic weight)
+
+*(source cell ID) (target cell ID) (x-coordinate (source)) (y-coordinate (source)) (z-coordinate (source)) (x-coordinate (target)) (y-coordinate (target)) (z-coordinate (target)) (projection type) (synaptic weight)*
 
 5. The extracellular voltages are computed at each neural compartment for each timestep and saved as .v format. The .v files for reproducing the simulations in the paper are provided inside the "NEURON Modeling" folder named “voltage”.
 
