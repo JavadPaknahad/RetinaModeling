@@ -37,7 +37,7 @@ We provided the resulting output voltages of the AM code after interpolation in 
 If you use any part of the code and methodology presented in these pages for your own work, kindly cite:
 
 K. Loizos et al, "Increasing electrical stimulation efficacy in degenerated retina: stimulus waveform design in a multiscale computational model," IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 26, no. 6, pp. 1111-1120, 2018.
-[GitHub](https://ieeexplore.ieee.org/document/8353348)
+[Link to the paper](https://ieeexplore.ieee.org/document/8353348)
 
 
 This project is licensed under the terms of the MIT license.
