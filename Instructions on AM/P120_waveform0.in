@@ -1,0 +1,26 @@
+##################################################
+#ModelTool Full TD simulation parameter file
+#Carlos J. Cela, 2010 (cjcela@gmail.com)
+##################################################
+unitvoxelsize 1e-05
+maximumsize 16
+material 0001 1e7  0 1e7  0 1e7  0
+material 0002 1e-7 0 1e-7 0 1e-7 0
+material 0049 0.6667  0 0.6667  0 0.6667  0
+material 0050 0.912  0 0.912  0 0.912  0
+material 0051 2.43  0 2.43  0 2.43  0
+material 0052 0.97  0 0.97  0 0.97  0
+material 0053 1.98  0 1.98  0 1.98  0
+material 0054 3200  0 3200  0 3200  0
+material 0055 1.00  0 1.00  0 1.00  0
+material 0056 1.98  0 1.98  0 1.98  0
+matrix P120_waveform0.model
+meshfile P120_waveform0.mrm
+networkfile P120_waveform0.net
+nodevoltagefile P120_waveform0.vof
+
+spice I RetinaCur0 [node 284 185 35] [node 312 212 185]
+
+nodename 284 185 35 028401850035
+nodename 312 212 185 0
+world 625 425 200
