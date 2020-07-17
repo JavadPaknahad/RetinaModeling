@@ -25,3 +25,9 @@ The extracellular voltages are computed at each neural compartment for each time
 After compiling all .mod files load the appropriate .hoc file from the neuron main menu after starting nrngui or by either double clicking in mswin's window explorer, typing nrngui init_SymmetricPulse.hoc in unix, or dragging and dropping the init_SymmetricPulse.hoc file onto the nrngui icon in Mac OS X.
 
 To reproduce Fig. 8 in the paper, simply run “init_SymmetricPulse.hoc” for the symmetric waveform and “init_AsymmetricPulse.hoc” to get the results for the asymmetric waveform.
+
+If you use any part of the code and methodology presented in these pages for your own work, kindly cite:
+
+K. Loizos et al, "Increasing electrical stimulation efficacy in degenerated retina: stimulus waveform design in a multiscale computational model," IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 26, no. 6, pp. 1111-1120, 2018.
+https://ieeexplore.ieee.org/document/8353348
+
